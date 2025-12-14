@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Information Hub</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind Css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="text-white">
+
+    <!-- Header -->
+    <header class="bg-green-500 p-[20px_10px] sticky top-0 z-50">
+        <nav class="container mx-auto px-4 md:px-6 flex justify-between">
+            <div>
+                <h2>Agriculture Hub</h2>
+            </div>
+            <ul class="md:flex gap-7 hidden">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./guide.html">Farming Guide</a></li>
+                <li><a href="./details.html">Crop Details</a></li>
+                <li><a href="./pest.html">Pest Control</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+
+            </ul>
+
+            <div id="hamburger" class="md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+        <!-- Mobile Menu -->
+        <ul id="mobile" class="flex flex-col text-center pt-5 gap-7 hidden">
+            <li class="pt-4"><a href="./index.html">Home</a></li>
+            <li class="pt-4"><a href="./guide.html">Farming Guide</a></li>
+            <li class="pt-4"><a href="./details.html">Crop Details</a></li>
+            <li class="pt-4"><a href="./pest.html">Pest Control</a></li>
+            <li class="pt-4"><a href="./contact.html">Contact</a></li>
+
+        </ul>
+    </header>
+    <!-- Hero -->
+     <section class="text-center py-20 px-4 md:px-16 bg-[url('https://www.dimolanka.com/wp-content/uploads/2023/01/Agriculture-1920x600-1.webp')] bg-cover ">
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6 text-black">
+        Agriculture Information Hub
+      </h1>
+      <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora atque quibusdam natus expedita similique magni labore ipsa excepturi a temporibus deserunt iure architecto, modi aliquid eum repellendus. Aspernatur, minus.
+      </p>
+      <div class="flex justify-center space-x-4">
+        <a href="#" class="bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition">Get Started</a>
+        <a href="#" class="border border-indigo-600 text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-50 transition">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Catagorized Section -->
+    <section class="py-16 bg-gray-100">
+
+        <h2 class="text-center text-2xl md:text-4xl text-green-500 font-bold py-5">Featured Section</h2>
+
+        <div class="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-5">
+
+
+
+            <div class="bg-green-500 rounded-md block w-full p-6 border border-default rounded-base shadow-xs">
+                <a href="#">
+                    <img class="rounded-md h-[200px] w-full" src="https://www.croptracker.com/images/precision_ag/tool_tiles_field.png" alt="" />
+                </a>
+                <a href="#">
+                    <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">Firming Guide</h5>
+                </a>
+                <p class="mb-6 text-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident perferendis impedit iure earum quasi enim necessitatibus. Autem similique placeat quos.</p>
+                <a href="./guide.html"
+                    class="inline-flex items-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">
+                    Read more
+                    <svg class="w-4 h-4 ms-1.5 rtl:rotate-180 -me-0.5" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 12H5m14 0-4 4m4-4-4-4" />
+                    </svg>
+                </a>
+            </div>
+            <div class="bg-green-500 rounded-md block w-full p-6 border border-default rounded-base shadow-xs">
+                <a href="#">
+                    <img class="rounded-md h-[200px] w-full" src="https://katyayanikrishidirect.com/cdn/shop/articles/5288-plant-pests.webp?v=1711797201" alt="" />
+                </a>
+                <a href="#">
+                    <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">Crop Details</h5>
+                </a>
+                <p class="mb-6 text-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident perferendis impedit iure earum quasi enim necessitatibus. Autem similique placeat quos.</p>
+                <a href="./details.html"
+                    class="inline-flex items-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">
+                    Read more
+                    <svg class="w-4 h-4 ms-1.5 rtl:rotate-180 -me-0.5" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 12H5m14 0-4 4m4-4-4-4" />
+                    </svg>
+                </a>
+            </div>
+            <div class="bg-green-500 rounded-md block w-full p-6 border border-default rounded-base shadow-xs">
+                <a href="#">
+                    <img class="rounded-md h-[200px] w-full" src="https://katyayanikrishidirect.com/cdn/shop/articles/5288-plant-pests.webp?v=1711797201" alt="" />
+                </a>
+                <a href="#">
+                    <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">Pest Control</h5>
+                </a>
+                <p class="mb-6 text-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident perferendis impedit iure earum quasi enim necessitatibus. Autem similique placeat quos.</p>
+                <a href="./pest.html"
+                    class="inline-flex items-center text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">
+                    Read more
+                    <svg class="w-4 h-4 ms-1.5 rtl:rotate-180 -me-0.5" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 12H5m14 0-4 4m4-4-4-4" />
+                    </svg>
+                </a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!--Footer  -->
+    <footer class="bg-green-500 p-[20px_10px]">
+        <div class="container mx-auto px-4 md:px-6 flex justify-between">
+            <p>&copy;2025 All Rights Reserved.</p>
+            <p id="timer"></p>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

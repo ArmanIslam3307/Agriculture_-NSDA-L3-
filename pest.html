@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Information Hub</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind Css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="text-white">
+
+    <!-- Header -->
+    <header class="bg-green-500 p-[20px_10px]">
+        <nav class="container mx-auto px-4 md:px-6 flex justify-between">
+            <div>
+                <h2>Agriculture Hub</h2>
+            </div>
+            <ul class="md:flex gap-7 hidden">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./guide.html">Farming Guide</a></li>
+                <li><a href="./details.html">Crop Details</a></li>
+                <li><a href="./pest.html">Pest Control</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+
+            </ul>
+
+            <div id="hamburger" class="md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+        <!-- Mobile Menu -->
+        <ul id="mobile" class="flex flex-col text-center pt-5 gap-7 hidden">
+            <li class="pt-4"><a href="./index.html">Home</a></li>
+            <li class="pt-4"><a href="./guide.html">Farming Guide</a></li>
+            <li class="pt-4"><a href="./details.html">Crop Details</a></li>
+            <li class="pt-4"><a href="./pest.html">Pest Control</a></li>
+            <li class="pt-4"><a href="./contact.html">Contact</a></li>
+
+        </ul>
+    </header>
+
+
+    <!--  -->
+    <section class="text-center bg-green-200 py-30">
+        <h2 class="text-3xl md:text-4xl font-extrabold leading-tight mb-6 text-black">Pest Control</h2>
+    </section>
+
+
+    <section class="py-16">
+        <div class="container mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-3 gap-5">
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://invadeagro.com/wp-content/uploads/2025/07/indian-farmer-spraying-pesticide-cotton-field-scaled-1.jpg">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Chemical Presticide</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRikHFtrX-h08TZf-gRajr-4LwA4CjKYUrdR-zFWNXvFVmKicbtfe1Ez_3PK2cpBum1nVg&usqp=CAU">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Biological</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://vgrogroup.com/wp-content/uploads/2025/01/pests-pesticide.jpg">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Physical / Mechanical</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://invadeagro.com/wp-content/uploads/2025/07/indian-farmer-spraying-pesticide-cotton-field-scaled-1.jpg">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Chemical Presticide</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRikHFtrX-h08TZf-gRajr-4LwA4CjKYUrdR-zFWNXvFVmKicbtfe1Ez_3PK2cpBum1nVg&usqp=CAU">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Biological</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://vgrogroup.com/wp-content/uploads/2025/01/pests-pesticide.jpg">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Physical / Mechanical</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://invadeagro.com/wp-content/uploads/2025/07/indian-farmer-spraying-pesticide-cotton-field-scaled-1.jpg">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Chemical Presticide</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRikHFtrX-h08TZf-gRajr-4LwA4CjKYUrdR-zFWNXvFVmKicbtfe1Ez_3PK2cpBum1nVg&usqp=CAU">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Biological</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+            <article class="flex flex-col shadow w-full">
+                <!-- Article Image -->
+                <a href="#" class="hover:opacity-75">
+                    <img class="h-[300px] w-full"
+                        src="https://vgrogroup.com/wp-content/uploads/2025/01/pests-pesticide.jpg">
+                </a>
+                <div class="bg-green-400 rounded-md flex flex-col justify-start p-6">
+                    <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Physical / Mechanical</a>
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit
+                        Amet</a>
+                    <p href="#" class="text-sm pb-3">
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on October
+                        22nd, 2019
+                    </p>
+                    <a href="#" class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta
+                        dui. Ut eu
+                        iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere
+                        magna..</a>
+                    <a href="#" class="uppercase text-gray-800 hover:text-black">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!--Footer  -->
+    <footer class="bg-green-500 p-[20px_10px]">
+        <div class="container mx-auto px-4 md:px-6 flex justify-between">
+            <p>&copy;2025 All Rights Reserved.</p>
+            <p id="timer"></p>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
